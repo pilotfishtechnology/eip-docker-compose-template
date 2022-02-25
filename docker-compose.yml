@@ -1,0 +1,14 @@
+version: '3.6'
+
+services:
+   eip:
+     image: pilotfishtechnology/eiplatform:latest
+     container_name: eiplatform
+     ports:
+       - "8080:8080"
+     restart: on-failure
+     environment:
+       - JAVA_OPTS=-Xms1g -Xmx3g
+     volumes:
+       - ${PWD}/eip-root/:/opt/pilotfish/eip-root/
+       - ${PWD}/pflicense.key:/opt/pilotfish/license/pflicense.key
