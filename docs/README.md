@@ -20,6 +20,6 @@ docker-compose logs -f
 
 ```bash
 docker-compose down
-docker pull pilotfishtechnology/eiplatform
+docker-compose pull
 docker-compose up -d
 ```
