@@ -32,7 +32,7 @@ The eiPlatform enterprise integration solution is a complete Java framework that
 
 3. Log in to the [Customer Portal](https://customerportal.pilotfishtechnology.com/portal/login.html) and download your latest license file.
 
-4. Copy in your license file (`pflicense.key`) with your latest routes (`eip-root`).
+4. Copy in your license file (`/license/pflicense.key`) with your latest routes (`eip-root`).
 
 5. Bring up your stack by running
 

@@ -10,5 +10,7 @@ services:
      environment:
        - JAVA_OPTS=-Xms1g -Xmx3g
      volumes:
-       - ${PWD}/eip-root/:/opt/pilotfish/eip-root/
-       - ${PWD}/pflicense.key:/opt/pilotfish/license/pflicense.key
+       - ./eip-root/:/opt/pilotfish/eip-root/
+       - ./license/:/opt/pilotfish/license/
+       - ./config/:/opt/pilotfish/config/
+       - ./logs/:/opt/pilotfish/logs/
