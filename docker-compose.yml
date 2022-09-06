@@ -28,6 +28,8 @@ services:
 #      - PFISH_EIP_CONF_com_pilotfish_eip_transact_idleTimeout=60
 # PilotFish Transaction Cache Type
 #      - PFISH_EIP_CONF_com_pilotfish_eip_transact_defaultCache=memory
+# Pilotfish License
+#      - PFISH_EIP_CONF_com_pilotfish_eip_license_base64=
      volumes:
        - ./eip-root/:/opt/pilotfish/eip-root/
        - ./license/:/opt/pilotfish/license/
