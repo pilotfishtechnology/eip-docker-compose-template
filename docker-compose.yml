@@ -12,6 +12,8 @@ services:
        - PFISH_EIP_CONF_com_pilotfish_eip_license_base64=
 # Memory allocation pool for a Java virtual machine
        - JAVA_OPTS=-Xms1g -Xmx3g -Dcom.pilotfish.eip.environmentSettings.file=environment-settings.conf
+# Set Time Zone
+#       - TIMEZONE=America/New_York
 # Performance enhancement that skips execution of any stages that do not alter data
 #       - PFISH_EIP_CONF_com_pilotfish_eip_skipEmptyStages=false
 # Specifies if a thread pool should be created per-Route, or per-Stage. Per-Stage is the default setting
